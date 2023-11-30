@@ -1,0 +1,351 @@
+.App {
+  /* text-align: center; */
+  background-color: #282c34;
+  color: white;
+  min-height: 910vh;
+}
+
+.App-detalhes {
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+}
+
+.App-header h1 {
+  text-align: center;
+  padding-top: 2%;
+  margin-top: 0;
+  margin-bottom: 1%;
+  /* font-weight: bold; */
+}
+
+.conteudo {
+  font-size: 115%;
+  margin-left: 41%;
+  margin-top: -21%;
+  width: 52%;
+}
+
+.conteudo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.conteudo h5 {
+  margin-bottom: 0;
+}
+
+.card {
+  border-radius: 12px;
+  width: 85%;
+  background-color: #8080802b;
+  padding-top: 0%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.App-header img {
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 36%;
+  height: 379px;
+  border-radius: 5px;
+}
+
+.imagemDetalhes {
+  margin-left: 63%;
+  width: 27%;
+  height: 772px;
+}
+
+.conteudoDetalhes h5 {
+  padding-right: 4%;
+  padding-left: 4%;
+  color: white;
+  background: #373b41;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 133%;
+  height: 252px;
+  width: 78%;
+  align-items: center;
+}
+
+.conteudoDetalhes {
+  width: 35%;
+  margin-left: 8%;
+  margin-bottom: 22%;
+  margin-top: -37%;
+}
+
+.trailer h3 {
+  margin-bottom: 14%;
+  margin-left: 25%;
+  margin-top: -15%;
+  text-transform: uppercase;
+  font-size: 142%;
+  font-weight: bold;
+}
+
+.conteudoDetalhes .trailer img {
+  margin-left: 5%;
+  width: 56%;
+  height: auto;
+  display: block;
+}
+
+.conteudoDetalhes h4,
+.sobreTrailer {
+  margin-left: 5%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+@media (max-width: 960px) {
+  .App {
+    /* text-align: center; */
+    background-color: #282c34;
+    color: white;
+    min-height: 910vh;
+  }
+
+  .App-detalhes {
+    background-color: #282c34;
+    color: white;
+    min-height: 100vh;
+  }
+
+  .App-header h1 {
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 0;
+    margin-bottom: 1%;
+    /* font-weight: bold; */
+  }
+
+  .conteudo {
+    font-size: 115%;
+    margin-left: 47%;
+    margin-top: -46%;
+    margin-bottom: 3%;
+    width: 52%;
+  }
+
+  .conteudo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  .conteudo h5 {
+    margin-bottom: 0;
+  }
+
+  .card {
+    border-radius: 12px;
+    width: 85%;
+    background-color: #8080802b;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+
+  .App-header img {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 43%;
+    height: 365px;
+    border-radius: 5px;
+  }
+
+  .imagemDetalhes {
+    margin-left: 61%;
+    width: 35%;
+    height: 579px;
+  }
+
+  .conteudoDetalhes h5 {
+    padding-right: 4%;
+    padding-left: 4%;
+    color: white;
+    background: #373b41;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 133%;
+    height: 252px;
+    width: 122%;
+    align-items: center;
+  }
+
+  .conteudoDetalhes {
+    width: 35%;
+    margin-left: 8%;
+    margin-bottom: 22%;
+    margin-top: -55%;
+  }
+
+  .trailer h3 {
+    margin-bottom: 14%;
+    margin-left: 28%;
+    margin-top: -26%;
+    text-transform: uppercase;
+    font-size: 142%;
+    font-weight: bold;
+  }
+
+  .conteudoDetalhes .trailer img {
+    margin-left: 5%;
+    width: 56%;
+    height: auto;
+    display: block;
+  }
+
+  .conteudoDetalhes h4,
+  .sobreTrailer {
+    width: 124%;
+    margin-left: 5%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    /* text-align: center; */
+    background-color: #282c34;
+    color: white;
+    min-height: 910vh;
+  }
+
+  .App-detalhes {
+    background-color: #282c34;
+    color: white;
+    min-height: 140vh;
+  }
+
+  .conteudo {
+    font-size: 115%;
+    margin-left: 4%;
+    margin-top: -21%;
+    width: 96%;
+  }
+
+  .conteudo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  .conteudo h5 {
+    margin-bottom: 0;
+  }
+
+  .card {
+    border-radius: 12px;
+    width: 90%;
+    background-color: #8080802b;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+
+  .App-header img {
+    margin-bottom: 18%;
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 96%;
+    height: 240px;
+    border-radius: 5px;
+  }
+
+  .imagemDetalhes {
+    margin-left: 15%;
+    width: 69%;
+    height: 474px;
+  }
+
+  .conteudoDetalhes h5 {
+    margin-top: 115%;
+    padding-right: 4%;
+    padding-left: 4%;
+    color: white;
+    background: #373b41;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 94%;
+    height: 128px;
+    width: 221%;
+    align-items: center;
+  }
+
+  .conteudoDetalhes {
+    width: 35%;
+    margin-left: 8%;
+    margin-bottom: 22%;
+    margin-top: -37%;
+  }
+
+  .trailer h3 {
+    width: 150%;
+    margin-bottom: 55%;
+    margin-left: 43%;
+    margin-top: -45%;
+    text-transform: uppercase;
+    font-size: 106%;
+    font-weight: bold;
+  }
+
+  .conteudoDetalhes .trailer img {
+    margin-left: 5%;
+    width: 56%;
+    height: auto;
+    display: block;
+  }
+
+  .conteudoDetalhes h4,
+  .sobreTrailer {
+    width: 208%;
+    margin-left: 5%;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  h1 {
+    text-decoration: none;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+}
