@@ -17,6 +17,8 @@ function App() {
       .catch((error) => {
         console.error("Erro ao buscar o personagem", error);
       });
+
+      console.log(setMarvel)
   }, []);
 
   const navigateToDetails = (id) => {
